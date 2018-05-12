@@ -1,0 +1,303 @@
+/* top-header*/
+.name-nav {
+	padding: 25px 5px; 
+	background: white;
+}
+
+nav {
+	display: flex !important
+}
+
+nav a {
+	color: black; 
+	margin-right: 10px; 
+	display: inline-block;
+}
+
+nav a:hover {
+	text-decoration: none; 
+	color: black;
+}
+
+.social-media a:hover {
+	text-decoration: none
+}
+
+.social-media {
+	text-align: center;
+}
+
+.top-header {
+	display: flex; 
+	align-items: center;
+}
+
+.top-header .row {
+	display: flex;
+	align-items: center;
+}
+
+.top-header span, .pull-right a {
+	color: #223374; 
+}
+
+.top-header span {
+	transition: color 1s ease-in-out
+}
+
+.top-header span:hover {
+	color: gold;
+}
+
+.pull-right a {
+	transition: color 0.5s ease-in-out;
+}
+
+.pull-right a:hover {
+	color: gold;
+}
+
+.hamburger-menu {
+	display: none;
+}
+
+/*slider*/
+.lebanon-photos img {
+	width: 100%;
+}
+
+#slider {
+	height: 500px;
+}
+
+/*about*/
+#about {
+	margin-bottom: 10px;
+}
+
+#about h4 {
+	color: #223374;
+}
+
+#about p {
+	text-align: justify;
+	font-family: "Merriweather", serif;
+}
+
+.description {
+	padding: 1.2em;
+}
+
+.my-pic {
+	padding: 0.8em;
+}
+
+#about img {
+	border-radius: 50px; 
+	float: right;
+}
+
+.first {
+	margin-bottom: 15px
+}
+
+#about, #samples, #bottom-nav {
+	position: relative; 
+	top: 50px;
+}
+
+/*samples*/
+#samples h4 {
+	color: #223374;
+}
+
+#samples h3 {
+	color: #223374;
+	text-align: center;
+}
+
+#samples a h3 {
+	transition: all 1s ease-in-out;
+}
+
+#samples a:hover {
+	text-decoration: none;
+}
+
+#samples a:hover h3 {
+	color: gold;
+}
+
+.grow {
+	height: 100%; 
+	overflow: hidden;
+}
+
+.demo {
+	transition: all 1s ease-in-out;
+}
+
+.demo:hover {
+	transform: scale(1.1);
+}
+
+/*footer*/
+.copyright {
+	text-align: right; 
+	color: #223374;
+}
+
+footer span a {
+	transition: color 1s ease-in-out;
+}
+
+footer span a:hover {
+	text-decoration: none; 
+	color: gold;
+}
+
+.phone {
+	color: #223374;
+}
+
+.align {
+	display: flex; 
+	align-items: center;
+}
+
+#bottom-nav {
+	padding: 35px 0;
+}
+
+#bottom-nav span {
+	color: #223374
+}
+
+.tel {
+	text-align: center;
+}
+
+.fa-icon {
+	margin-right: 3px;
+}
+
+.email {
+	color: #223374;
+}
+
+/*media queries*/
+@media (max-width: 1024px) {
+	#slider {
+		height: 350px;
+	}
+	.top-header span {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 768px) {
+	.logo {
+		width: 75px;
+	}
+	#slider {
+		height: 250px;
+	}
+	.grow {
+		margin-bottom: 20px;
+	}
+	.align {
+		display: block;
+		text-align: center;
+		font-size: 2em;
+	}
+	.copyright {
+		text-align: center;
+	}
+}
+
+@media (max-width: 736px) {
+	.resize {
+		margin-left: 0; 
+		margin-right: 0; 
+		width: 100%;
+	}
+	.change, .social-media, .desktop-menu {
+		display: none;
+	}
+	.hamburger-menu {
+		display: block;
+	}
+	.navbar-toggle .icon-bar {
+		background: black;
+	}
+	#about {
+		top: 0;
+	}
+	#mobileNav p {
+		font-size: 1.2em;
+		font-family: Merriweather;
+		text-align: center;
+		color: grey;
+	}
+	.mobile-nav-social img {
+		width: 68px;
+		position: relative;
+		top: -7px;
+	}
+}
+
+
+@media (max-width: 568px) {
+	#slider {
+		height: 200px;
+	}
+}
+
+@media (max-width: 414px) {
+	.top-header span {
+		display: none;
+	}
+	.top-header .social-media {
+		display: none;
+	}
+	.top-header .desktop-menu {
+		display: none;
+	}
+	#slider {
+		height: 140px;
+	}
+	.my-pic img {
+		width: 123px;
+	}
+	.align {
+		font-size: 1em;
+	}
+	.copyright {
+		font-size: 1em;
+	}
+	#samples {
+		position: relative;
+		top: -20px;
+	}
+	#bottom-nav {
+		top: -15px;
+	}
+}
+
+@media (max-width: 375px) {
+	.my-pic img {
+		width: 103px;
+	}
+}
+
+@media (max-width: 320px) {
+	#slider {
+		height: 100px;
+	}
+	.my-pic img {
+		width: 83px;
+	}
+	.text p {
+		font-size: 0.8em;
+	}
+}

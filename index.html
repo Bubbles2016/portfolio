@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hussein's Portfolio</title>
+	<script src="https://use.fontawesome.com/4e394aa557.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link rel="stylesheet" href="css/loaders.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/mobile-menu.css" />
+</head>
+
+<body>
+	<!--Top header. Navigation bar-->
+	<header class="name-nav">
+		<div class="top-header">
+			<div class="container resize">
+				<div class="row">
+					<div class="col-md-4 col-sm-4 col-xs-3 change">
+						<img src="images/hb_logo.png" class ="logo" width="90" alt="logo">
+						<span>HUSSEIN BARADA</span>
+					</div>
+					<div class="col-md-4 col-sm-2 col-xs-2 social-media">
+						<a href="https://www.linkedin.com/in/hussein-barada-399a49130/" target="_blank"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+						<a href="https://www.facebook.com/hussein.barada" target="_blank"><i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i></a>
+					</div>
+					<div class="col-md-4 col-sm-6 desktop-menu">
+						<nav class="pull-right">
+							<a href="#about">ABOUT</a>
+							<a href="#samples">PROJECTS</a>
+							<a href="#bottom-nav">CONTACT</a>
+						</nav>
+					</div>
+					<!--TODO: add mobile screen-->
+					<div class="navbar-header pull-right hamburger-menu">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobileNav">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--Slick slider-->
+	<div id="slider">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="lebanon-photos">
+						<div>
+							<picture>
+  								<source srcset="images/photo2_big.jpg" media="(min-width: 1300px)">
+								<img src="images/photo2.jpg" class="img-responsive" alt="Lebanon panorama">
+							</picture>	
+						</div>
+						<div><img src="images/photo1.jpg" class="img-responsive" alt="Lebanon panorama"></div>
+						<div><img src="images/photo4.jpg" class="img-responsive" alt="Lebanon panorama"></div>
+						<div><img src="images/photo3.jpg" class="img-responsive" alt="Lebanon panorama"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--About Me section-->
+	<div id="about">
+		<div class="container">
+			<div class="row">
+				<div class="description">
+					<h4>About me</h4>
+					<hr>
+					<img src="images/metoo.jpg" class="img-responsive my-pic" alt="my portrait">
+					<p>Hello, my name is Hussein. I'm a Front End Web Developer living in Beirut, Lebanon.</p>
+					<p>I have a B.S in computer science but since I graduated I worked in a different domain. After 13 years of graduation, I decided to quit my job and to follow my passion! I chose web development as a new career. Since then, my life has a new meaning :) Creating this website brought me a lot of happiness and self satisfaction :)</p>
+					<p>Front End Development is building out the visual components of a website. Using HTML, CSS , and Javascript, I build fast, interactive and responsive websites.</p>
+					<p>I create beautiful and responsive websites for small businesses. This website is a work in progress! Below are some of the demo projects I did.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--album-->
+	<div id="samples">
+		<div class="container">
+			<h4>Projects</h4>
+			<hr>
+			<div class="row first">
+				<div class="col-md-4 col-sm-12">
+					<div class="grow">
+						<a href="https://bubbles2016.github.io/fotomatic/" target="_blank">
+							<img src="images/fotomatic-thumb.jpg" class="img-responsive demo" alt="Fotomatic project"/>
+						</a>
+					</div>
+					<a href="https://bubbles2016.github.io/fotomatic/" target="_blank"><h3>Fotomatic</h3></a>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="grow">
+						<a href="https://bubbles2016.github.io/jumpstart/" target="_blank"><img src="images/jumpstart-thumb.jpg" class="img-responsive demo" alt="Jumpstart project"/></a>
+					</div>
+					<a href="https://bubbles2016.github.io/jumpstart/" target="_blank"><h3>Jumpstart</h3></a>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="grow">
+						<a href="https://bubbles2016.github.io/capstone/" target="_blank"><img src="images/capstone-thumb.jpg" class="img-responsive demo" alt="Colmar Academy project"/></a>
+					</div>
+					<a href="https://bubbles2016.github.io/capstone/" target="_blank"><h3>Colmar Academy</h3></a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-12">
+					<div class="grow">
+						<a href="https://bubbles2016.github.io/secretagent/" target="_blank"><img src="images/secretagent-thumb.jpg" class="img-responsive demo" alt="Secret Agent project"/></a>
+					</div>
+					<a href="https://bubbles2016.github.io/secretagent/" target="_blank"><h3>Secret Agent</h3></a>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="grow">
+						<a href="https://bubbles2016.github.io/teacozy/" target="_blank"><img src="images/bedford-bizarre-thumb.jpg" class="img-responsive demo" alt="BedFord Bizarre project"/></a>
+					</div>
+					<a href="https://bubbles2016.github.io/teacozy/" target="_blank"><h3>Tea Cozy</h3></a>
+				</div>
+				<div class="col-md-4 col-sm-12">
+					<div class="grow">
+						<a href="https://bubbles2016.github.io/matchgame/" target="_blank"><img src="images/matchgame-thumb.jpg" class="img-responsive demo" alt="Match Game project"/></a>
+					</div>
+					<a href="https://bubbles2016.github.io/matchgame/" target="_blank"><h3>Match Game</h3></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="bottom-nav">
+		<div class="container">
+			<div class="row align">
+				<div class="col-md-4  col-xs-12">
+					<span> Hire me </span><i class="fa fa-envelope fa-icon" aria-hidden="true"></i><span><a href="hsein.barada@gmail.com" class="email">hsein.barada@gmail.com</a></span>
+				</div>
+				<div class="col-md-4 col-xs-12 tel">
+					<i class="fa fa-mobile fa-icon" aria-hidden="true"></i><span class="phone">+961-3-800560</span>
+				</div>
+				<div class="col-md-4 col-xs-12 copyright">
+					<span>&copy;by me :)</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<div id="overlay"></div>
+	<div id="mobileNav">
+		<ul>
+			<li><a href="#about" class="mini">About</a></li>
+			<li><a href="#samples" class="mini">Projects</a></li>
+			<li><a href="#bottom-nav" class="mini">Contact</a></li>
+			<li class="mobile-nav-sep"></li>
+		</ul>
+		<div class="mobile-nav-social">
+			<ul>
+				<li><img src="images/logo_transparent.png" class ="logo" width="40" alt="logo"></li>
+				<li><a href="https://www.linkedin.com/in/hussein-barada-399a49130/" target="_blank"><span class="fa fa-linkedin-square fa-2x"></span></a></li>
+				<li><a href="https://www.facebook.com/hussein.barada" target="_blank"><span class="fa fa-facebook-official fa-2x"></span></a></li>
+			</ul>
+		</div>
+		<p>Hussein Barada</p>
+		<p>Front End Web Developer</p>
+		<p><i class="fa fa-heart fa-2x"></i></p>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/mobile-menu.js"></script>
+</body>
+</html>
